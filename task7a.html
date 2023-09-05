@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: whitesmoke;
+        border : 1px solid black;
+      }
+      
+      li {
+        float: left;
+        border-right: 1px solid #bbb;
+      }
+      
+      li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        color: blue;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: whitesmoke;
+      }
+      
+      .active {
+        background-color: gray;
+        color: white;
+      }
+      </style>
+</head>
+<body> 
+    <p3>Horizontal Nav bar</p3>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#java">Java</a></li>
+        <li><a href="#HTML">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+      </ul>
+</body>
+</html>
